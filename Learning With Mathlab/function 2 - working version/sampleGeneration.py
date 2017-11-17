@@ -4,36 +4,41 @@ def calcFunc(a, b, c):
 	if a==0:
 		print("Nan")
 	else:
-		makhraj = (math.pow(a, b)+math.sqrt(math.fabs(c*c-b*b)))
-		sorat = (math.cos(c)*math.log2(math.fabs(a)))
+		sorat = ((-1)*b + math.sqrt(math.fabs(b*b-4*c)))
+		makhraj = (math.cos(c)*math.log2(math.fabs(a)))*c
 		if makhraj==0:
 			print("Nan")
+			return -1
 		else:
 			print(math.fabs(sorat/makhraj))
-			fileA = open("A.txt","a")
+			fileA = open("testASample.txt","a")
 			fileA.write(str(a))
 			fileA.write("	")
 			fileA.close()
-			fileB = open("B.txt","a")
+			fileB = open("testBSample.txt","a")
 			fileB.write(str(b))
 			fileB.write("	")
 			fileB.close()
-			fileC = open("C.txt","a")
+			fileC = open("testCSample.txt","a")
 			fileC.write(str(c))
 			fileC.write("	")
 			fileC.close()
-			fileRes = open("Res.txt","a")
+			fileRes = open("testResSample.txt","a")
 			fileRes.write(str(math.fabs(sorat/makhraj)))
 			fileRes.write("	")
 			fileRes.close()
+		return 1
 
 if __name__ == '__main__':
-	for i in range(100):
+	for i in range(50):
 		a = random.randint(-20, 20)
 		print(a)
-		b = random.randint(-10, 10)
+		b = random.randint(-20, 20)
 		print(b)
-		c = random.randint(1, 50)
+		c = random.randint(-20, 20)
 		print(c)
 		print("The result:")
-		calcFunc(a, b, c)
+		x = calcFunc(a, b, c)
+		if x==-1:
+			i=i-1;
+

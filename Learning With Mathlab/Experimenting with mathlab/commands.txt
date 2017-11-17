@@ -1,6 +1,0 @@
-1)	nnstart
-2)	fitting app
-3)	next!
-4)	load example data set
-5)	simple fitting problem
-and then just explore! 
