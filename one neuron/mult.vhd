@@ -2,13 +2,13 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 
-entity adder is
+entity mult is
 	port(a, b: in real; 
 		res: out real
 		);
-end adder;
+end mult;
 
-architecture Behavioral of adder is
+architecture Behavioral of mult is
 begin
-	res <=  a + b;
+	res <=  a * b;
 end Behavioral;

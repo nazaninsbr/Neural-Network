@@ -4,30 +4,42 @@ use IEEE.STD_LOGIC_ARITH.ALL;
 
 entity mac is
 	port(
-		data1_in: in std_logic_vector(4 downto 0);
-		data2_in: in std_logic_vector(4 downto 0);
+		data1_in: in real;
+		data2_in: in real;
 		clk: in std_logic;
 		rst: in std_logic; 
-		data_out: out std_logic_vector(9 downto 0)
+		load: in std_logic;
+		data_out: out real
 	);
 end mac;
 
 architecture Behavioral of mac is
-	signal accumulation_value: std_logic_vector(9 downto 0);
+	component adder is
+			port(a, b: in real; 
+			res: out real
+			); 
+	end component;	
+	component mult is
+			port(a, b: in real; 
+			res: out real
+			); 
+	end component;
+	component reg is 
+		port(a: in real; 
+			clk, load, rst: in STD_LOGIC;
+		res: out real
+		);
+	end component;
+	
+	for m1: mult use entity work.mult(Behavioral);
+	for a1: adder use entity work.adder(Behavioral);
+	for r1: reg use entity work.reg(Behavioral);
+	
+	signal accumulated_value, added_value, multiplication_value: real;
 begin
-
-	process(clk)
-		variable multiplication_value: std_logic_vector(9 downto 0);
-	begin
-		if rising_edge(clk) then
-			if rst='1' then
-				accumulation_value <= "0000000000";
-			else 
-				multiplication_value := signed(data1_in)*signed(data2_in);
-				accumulation_value <= signed(accumulation_value)+ signed(multiplication_value);
-			end if;
-		end if;
-	end process;
-	data_out <= accumulation_value;
+	m1: mult port map(data1_in, data2_in, multiplication_value);
+	a1: adder port map(multiplication_value, accumulated_value, added_value);
+	r1: reg port map(added_value, clk, load, rst, accumulated_value);
+	data_out <= accumulated_value;
 end Behavioral;
 

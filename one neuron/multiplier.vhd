@@ -2,9 +2,10 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 entity multiplier is
+	generic ( n : integer := 0);
 	port(
-		a, b: in std_logic_vector(4 downto 0); 
-		res: out std_logic_vector(9 downto 0)
+		a, b: in std_logic_vector(n downto 0); 
+		res: out std_logic_vector((2*n-1) downto 0)
 	);
 end multiplier;
 

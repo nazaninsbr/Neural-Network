@@ -5,23 +5,23 @@ use IEEE.STD_LOGIC_ARITH.ALL;
 
 entity activationFunction is
 	port(
-		in_val: in std_logic_vector(31 downto 0); 
-		ready_signal: in std_logic;
-		out_val: out std_logic_vector(31 downto 0)
+		data_in: in real; 
+		ready: in std_logic;
+		data_out: out real
 	);
 end activationFunction;
 
 architecture Behavioral of activationFunction is
 begin
-	process(ready_signal) 
+	process(ready) 
 	begin 
-		if ready_signal='1' then
-			if in_val>="00000000000000010000000000000000" then
-				out_val <= in_val;
+		if ready='1' then
+			if data_in >= 0.5 then
+				data_out <= data_in;
 			else 
-				out_val <= (others => '0');
+				data_out <= 0.0;
 			end if;
 		end if;
-	end process; 
+	end process;
 end Behavioral;
 

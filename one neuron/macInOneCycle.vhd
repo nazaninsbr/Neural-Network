@@ -12,7 +12,7 @@ entity macInOneCycle is
 end macInOneCycle;
 
 architecture Behavioral of macInOneCycle is
-signal accumulation_value: std_logic_vector(63 downto 0);
+	signal accumulation_value: std_logic_vector(63 downto 0);
 begin
 
 	process(calculate_value)
