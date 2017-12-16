@@ -1,0 +1,6 @@
+vhdl work "not_gate.vhd"
+vhdl work "nand3.vhd"
+vhdl work "nand2.vhd"
+vhdl work "bit_comparator.vhd"
+vhdl work "n_bit_comparator.vhd"
+vhdl work "adder.vhd"

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/University/Term 7/CAD/CAs/CA3-NNM/CA3/testActivationFunction.xst" -ofn "D:/University/Term 7/CAD/CAs/CA3-NNM/CA3/testActivationFunction.syr" 
+xst -intstyle ise -ifn "D:/University/Term 7/CAD/CAs/CA3-NNM/CA3/testActivationFunction.xst" -ofn "D:/University/Term 7/CAD/CAs/CA3-NNM/CA3/testActivationFunction.syr" 

@@ -1,0 +1,27 @@
+Command line:
+   testbench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54080
+
+Fri Dec 15 12:10:54 2017
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 858.558 Meg
+
+ Total Signals          : 1990
+ Total Nets             : 783
+ Total Signal Drivers   : 440
+ Total Blocks           : 464
+ Total Primitive Blocks : 424
+ Total Processes        : 433
+ Total Traceable Variables  : 39
+ Total Scalar Nets and Variables : 1308
+
+** Failure:end of simulation
+User(VHDL) Code Called Simulation Stop
+In process neuron_testbench.vhd:stim_proc 
+ 
+

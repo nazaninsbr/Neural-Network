@@ -1,0 +1,6 @@
+work	"adder.vhd"
+work	"bit_comparator.vhd"
+work	"n_bit_comparator.vhd"
+work	"nand2.vhd"
+work	"nand3.vhd"
+work	"not_gate.vhd"

@@ -1,0 +1,2 @@
+vhdl work "mult.vhd"
+vhdl work "mult_tb.vhd"

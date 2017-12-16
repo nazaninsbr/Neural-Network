@@ -1,0 +1,2 @@
+vhdl isim_temp "nmn_types.vhd"
+vhdl isim_temp "input_selector.vhd"

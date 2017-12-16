@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/activationFunction</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/University/Term 7/CAD/CAs/CA3-NNM/CA3/activationFunction.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/University/Term 7/CAD/CAs/CA3-94346-93499-93436/CA3-NNM/CA3/activationFunction.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/activationFunction/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/University/Term 7/CAD/CAs/CA3-NNM/CA3/activationFunction.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/University/Term 7/CAD/CAs/CA3-94346-93499-93436/CA3-NNM/CA3/activationFunction.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3516" delta="new" >Found error in file &quot;<arg fmt="%s" index="1">D:/University/Term 7/CAD/CAs/CA3-94346-93499-93436/CA3-NNM/CA3/mult.vhd</arg>&quot;. 
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3458" delta="new" >Because of erroneous VHDL file(s), automatic determination of correct order of compilation of files in project file &quot;<arg fmt="%s" index="1">D:/University/Term 7/CAD/CAs/CA3-94346-93499-93436/CA3-NNM/CA3/neuron_vhdl.prj</arg>&quot; may be inaccurate. Please put the files in the project file in correct order with keyword &apos;nosort&apos; at end of the project file, or compile your vhdl file(s) individually to find and fix the error(s) in your vhdl file(s). 
+</msg>
+
+<msg type="error" file="HDLParsers" num="164" delta="new" >&quot;<arg fmt="%s" index="1">D:/University/Term 7/CAD/CAs/CA3-94346-93499-93436/CA3-NNM/CA3/mult.vhd</arg>&quot; Line <arg fmt="%d" index="2">7</arg>. <arg fmt="%s" index="3">parse error, unexpected COMMA, expecting SEMICOLON or CLOSEPAR</arg>
+</msg>
+
+</messages>
+

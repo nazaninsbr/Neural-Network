@@ -1,0 +1,2 @@
+vhdl work "activationFunction.vhd"
+vhdl work "testActivationFunction.vhd"
