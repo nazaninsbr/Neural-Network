@@ -1,0 +1,28 @@
+Command line:
+   MLP_testbench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54926
+
+Mon Jan 29 16:09:53 2018
+
+
+ Elaboration Time: 2.84375 sec
+
+ Current Memory Usage: 1225.62 Meg
+
+ Total Signals          : 88538
+ Total Nets             : 150251
+ Total Signal Drivers   : 19507
+ Total Blocks           : 20593
+ Total Primitive Blocks : 18849
+ Total Processes        : 19326
+ Total Traceable Variables  : 897
+ Total Scalar Nets and Variables : 151906
+
+ Total Simulation Time: 107.406 sec
+
+ Current Memory Usage: 753.762 Meg
+
+Mon Jan 29 17:03:28 2018
+

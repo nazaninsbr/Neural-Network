@@ -1,0 +1,65 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/MLP_testbench_isim_beh.exe" -prj "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/MLP_testbench_beh.prj" "work.MLP_testbench" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/not_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/nand3.vhd" into library work
+Parsing VHDL file "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/nand2.vhd" into library work
+Parsing VHDL file "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/bit_comparator.vhd" into library work
+Parsing VHDL file "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/n_bit_comparator.vhd" into library work
+Parsing VHDL file "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/reg.vhd" into library work
+Parsing VHDL file "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/nmn_types.vhd" into library work
+Parsing VHDL file "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/mult.vhd" into library work
+Parsing VHDL file "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/adder.vhd" into library work
+Parsing VHDL file "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/mac.vhd" into library work
+Parsing VHDL file "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/input_selector.vhd" into library work
+Parsing VHDL file "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/activationFunction.vhd" into library work
+Parsing VHDL file "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/datapath.vhd" into library work
+Parsing VHDL file "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/controller.vhd" into library work
+Parsing VHDL file "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/nueron.vhd" into library work
+Parsing VHDL file "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/output_layer.vhd" into library work
+Parsing VHDL file "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/hidden_layer.vhd" into library work
+Parsing VHDL file "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/argmax.vhd" into library work
+Parsing VHDL file "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/MLP.vhd" into library work
+Parsing VHDL file "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/MLP_testbench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package math_real
+Compiling package attributes
+Compiling package std_logic_misc
+Compiling package textio
+Compiling package nmn_types
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling architecture behavioral of entity mult [\mult(16,6)\]
+Compiling architecture single_delay of entity inv [inv_default]
+Compiling architecture single_delay of entity nand2 [nand2_default]
+Compiling architecture single_delay of entity nand3 [nand3_default]
+Compiling architecture gate_level of entity bit_comparator [bit_comparator_default]
+Compiling architecture iterative of entity nibble_comparator [\nibble_comparator(16,6)\]
+Compiling architecture behavioral of entity adder [\adder(16,6)\]
+Compiling architecture behavioral of entity reg [\reg(16,6)\]
+Compiling architecture behavioral of entity mac [\mac(16,6)\]
+Compiling architecture behavioral of entity activationFunction [\activationFunction(16,6)\]
+Compiling architecture behavioral of entity input_selector [\input_selector(62,16)\]
+Compiling architecture behavioral of entity datapath [\datapath(62,16,6)\]
+Compiling architecture behavioral of entity controller [\controller(62)\]
+Compiling architecture behavioral of entity neuron [\neuron(62,16,6)\]
+Compiling architecture behavioral of entity hidden_layer [\hidden_layer(62,16,6)\]
+Compiling architecture behavioral of entity input_selector [\input_selector(20,16)\]
+Compiling architecture behavioral of entity datapath [\datapath(20,16,6)\]
+Compiling architecture behavioral of entity controller [\controller(20)\]
+Compiling architecture behavioral of entity neuron [\neuron(20,16,6)\]
+Compiling architecture behavioral of entity output_layer [\output_layer(20,16,6)\]
+Compiling architecture behavioral of entity argmax [\argmax(16,6)\]
+Compiling architecture behavioral of entity MLP [\MLP(62,16,6)\]
+Compiling architecture behavior of entity mlp_testbench
+Time Resolution for simulation is 1ps.
+Waiting for 24 sub-compilation(s) to finish...
+Compiled 54 VHDL Units
+Built simulation executable C:/Users/Hossain/Documents/Nooshin/CA4/CA4/MLP_testbench_isim_beh.exe
+Fuse Memory Usage: 59100 KB
+Fuse CPU Usage: 4546 ms

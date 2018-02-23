@@ -1,0 +1,157 @@
+V3 89
+FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/activationFunction.vhd 2018/01/21.19:00:36 P.20131013
+EN work/activationFunction 1517232268 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/activationFunction.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177
+AR work/activationFunction/Behavioral 1517232269 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/activationFunction.vhd \
+      EN work/activationFunction 1517232268 AR work/nibble_comparator/iterative 1517232259 \
+      CP nibble_comparator
+FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/adder.vhd 2018/01/28.01:22:34 P.20131013
+EN work/adder 1517232262 FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/adder.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177
+AR work/adder/Behavioral 1517232263 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/adder.vhd EN work/adder 1517232262 \
+      AR work/nibble_comparator/iterative 1517232259 CP nibble_comparator
+FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/argmax.vhd 2018/01/28.03:26:39 P.20131013
+EN work/argmax 1517232284 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/argmax.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB work/nmn_types 1517232267
+AR work/argmax/Behavioral 1517232285 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/argmax.vhd EN work/argmax 1517232284
+FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/bit_comparator.vhd 2017/12/14.19:03:52 P.20131013
+EN work/bit_comparator 1517232256 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/bit_comparator.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/bit_comparator/gate_level 1517232257 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/bit_comparator.vhd \
+      EN work/bit_comparator 1517232256 AR work/inv/single_delay 1517232251 \
+      AR work/nand2/single_delay 1517232253 AR work/nand3/single_delay 1517232255 \
+      CP n1 CP n2 CP n3
+FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/controller.vhd 2018/01/29.16:54:02 P.20131013
+EN work/controller 1517232276 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/controller.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177
+AR work/controller/Behavioral 1517232277 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/controller.vhd \
+      EN work/controller 1517232276
+FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/datapath.vhd 2018/01/26.21:25:38 P.20131013
+EN work/datapath 1517232274 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/datapath.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB work/nmn_types 1517232267
+AR work/datapath/Behavioral 1517232275 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/datapath.vhd EN work/datapath 1517232274 \
+      AR work/adder/Behavioral 1517232263 AR work/mac/Behavioral 1517232273 \
+      AR work/activationFunction/Behavioral 1517232269 \
+      AR work/input_selector/Behavioral 1517232271 CP mac CP adder CP activation \
+      CP selector
+FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/hidden_layer.vhd 2018/01/26.20:47:11 P.20131013
+EN work/hidden_layer 1517232280 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/hidden_layer.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/MATH_REAL 1381692182 \
+      PB ieee/std_logic_misc 1381692178 PB std/TEXTIO 1381692176 PB work/nmn_types 1517232267
+AR work/hidden_layer/Behavioral 1517232281 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/hidden_layer.vhd \
+      EN work/hidden_layer 1517232280 CP neuron
+FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/input_selector.vhd 2017/12/15.10:16:38 P.20131013
+EN work/input_selector 1517232270 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/input_selector.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB work/nmn_types 1517232267
+AR work/input_selector/Behavioral 1517232271 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/input_selector.vhd \
+      EN work/input_selector 1517232270
+FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/mac.vhd 2017/12/15.10:07:12 P.20131013
+EN work/mac 1517232272 FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/mac.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177
+AR work/mac/Behavioral 1517232273 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/mac.vhd EN work/mac 1517232272 \
+      AR work/mult/Behavioral 1517232261 AR work/adder/Behavioral 1517232263 \
+      AR work/reg/Behavioral 1517232265 CP mult CP adder CP reg
+FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/MLP.vhd 2018/01/28.03:01:12 P.20131013
+EN work/MLP 1517232286 FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/MLP.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/MATH_REAL 1381692182 \
+      PB ieee/std_logic_misc 1381692178 PB std/TEXTIO 1381692176 PB work/nmn_types 1517232267
+AR work/MLP/Behavioral 1517232287 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/MLP.vhd EN work/MLP 1517232286 \
+      AR work/hidden_layer/Behavioral 1517232281 AR work/output_layer/Behavioral 1517232283 \
+      AR work/argmax/Behavioral 1517232285 CP hidden_layer CP output_layer \
+      CP argmax
+FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/mult.vhd 2018/01/28.02:10:06 P.20131013
+EN work/mult 1517232260 FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/mult.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/mult/Behavioral 1517232261 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/mult.vhd EN work/mult 1517232260
+FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/nand2.vhd 2017/12/14.18:54:48 P.20131013
+EN work/nand2 1517232252 FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/nand2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/nand2/single_delay 1517232253 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/nand2.vhd EN work/nand2 1517232252
+FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/nand3.vhd 2017/12/14.18:54:30 P.20131013
+EN work/nand3 1517232254 FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/nand3.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/nand3/single_delay 1517232255 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/nand3.vhd EN work/nand3 1517232254
+FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/nmn_types.vhd 2018/01/29.16:44:21 P.20131013
+PH work/nmn_types 1517232266 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/nmn_types.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/MATH_REAL 1381692182 \
+      PB ieee/std_logic_misc 1381692178 PB std/TEXTIO 1381692176
+PB work/nmn_types 1517232267 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/nmn_types.vhd \
+      PH work/nmn_types 1517232266
+FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/not_gate.vhd 2017/12/14.18:54:38 P.20131013
+EN work/inv 1517232250 FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/not_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/inv/single_delay 1517232251 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/not_gate.vhd EN work/inv 1517232250
+FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/nueron.vhd 2018/01/26.14:25:56 P.20131013
+EN work/neuron 1517232278 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/nueron.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB work/nmn_types 1517232267
+AR work/neuron/Behavioral 1517232279 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/nueron.vhd EN work/neuron 1517232278 \
+      AR work/datapath/Behavioral 1517232275 AR work/controller/Behavioral 1517232277 \
+      CP datapath CP controller
+FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/n_bit_comparator.vhd 2017/12/15.12:09:14 P.20131013
+EN work/nibble_comparator 1517232258 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/n_bit_comparator.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/nibble_comparator/iterative 1517232259 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/n_bit_comparator.vhd \
+      EN work/nibble_comparator 1517232258 AR work/bit_comparator/gate_level 1517232257 \
+      CP comp1
+FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/output_layer.vhd 2018/01/26.20:48:06 P.20131013
+EN work/output_layer 1517232282 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/output_layer.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/MATH_REAL 1381692182 \
+      PB ieee/std_logic_misc 1381692178 PB std/TEXTIO 1381692176 PB work/nmn_types 1517232267
+AR work/output_layer/Behavioral 1517232283 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/output_layer.vhd \
+      EN work/output_layer 1517232282 CP neuron
+FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/reg.vhd 2017/12/15.09:33:44 P.20131013
+EN work/reg 1517232264 FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/reg.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177
+AR work/reg/Behavioral 1517232265 \
+      FL C:/Users/Hossain/Documents/Nooshin/CA4/CA4/reg.vhd EN work/reg 1517232264
+FL "D:/University/Term 7/CAD/CAs/CA3-94346-93499-93436/CA3-NNM/CA3/activationFunction.vhd" 2017/11/30.15:34:34 P.20131013
+FL "D:/University/Term 7/CAD/CAs/CA3-94346-93499-93436/CA3-NNM/CA3/adder.vhd" 2017/12/14.15:09:56 P.20131013
+FL "D:/University/Term 7/CAD/CAs/CA3-94346-93499-93436/CA3-NNM/CA3/controller.vhd" 2017/11/30.18:44:45 P.20131013
+FL "D:/University/Term 7/CAD/CAs/CA3-94346-93499-93436/CA3-NNM/CA3/datapath.vhd" 2017/11/30.17:31:38 P.20131013
+FL "D:/University/Term 7/CAD/CAs/CA3-94346-93499-93436/CA3-NNM/CA3/input_selector.vhd" 2017/11/30.15:52:08 P.20131013
+FL "D:/University/Term 7/CAD/CAs/CA3-94346-93499-93436/CA3-NNM/CA3/mac.vhd" 2017/11/30.15:25:53 P.20131013
+FL "D:/University/Term 7/CAD/CAs/CA3-94346-93499-93436/CA3-NNM/CA3/mult.vhd" 2017/12/14.14:39:42 P.20131013
+FL "D:/University/Term 7/CAD/CAs/CA3-94346-93499-93436/CA3-NNM/CA3/nmn_types.vhd" 2017/12/14.13:52:34 P.20131013
+FL "D:/University/Term 7/CAD/CAs/CA3-94346-93499-93436/CA3-NNM/CA3/nueron.vhd" 2017/11/30.18:40:27 P.20131013
+FL "D:/University/Term 7/CAD/CAs/CA3-94346-93499-93436/CA3-NNM/CA3/reg.vhd" 2017/11/30.17:55:54 P.20131013
+FL "D:/University/Term 7/CAD/CAs/CA3-NNM/CA3/activationFunction.vhd" 2017/11/30.15:34:34 P.20131013
+FL "D:/University/Term 7/CAD/CAs/CA3-NNM/CA3/testActivationFunction.vhd" 2017/11/30.12:47:36 P.20131013
+EN work/testActivationFunction 0 \
+      FL "D:/University/Term 7/CAD/CAs/CA3-NNM/CA3/testActivationFunction.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/testActivationFunction/behavior 0 \
+      FL "D:/University/Term 7/CAD/CAs/CA3-NNM/CA3/testActivationFunction.vhd" \
+      EN work/testActivationFunction 0 CP activationFunction

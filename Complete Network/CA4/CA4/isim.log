@@ -1,0 +1,64 @@
+ISim log file
+Running: C:\Users\Hossain\Documents\Nooshin\CA4\CA4\MLP_testbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Hossain/Documents/Nooshin/CA4/CA4/MLP_testbench_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /mlp_testbench/uut/h1/\n0to19(0)\/ni/dp1/mac1/a1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+# run all
+Stopped at time : 24335 ns : File "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/controller.vhd" Line 36
+# run all
+Stopped at time : 216905 ns : File "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/adder.vhd" Line 45
+# run all
+Stopped at time : 227445 ns : File "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/nand2.vhd" Line 10
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /mlp_testbench/uut/h1/\n0to19(0)\/ni/dp1/mac1/a1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+# run all
+Stopped at time : 82665 ns : File "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/nand3.vhd" Line 10
+# run all
+Stopped at time : 347045 ns : File "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/nand3.vhd" Line 10
+# run all
+Stopped at time : 460645 ns : File "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/nand2.vhd" Line 10
+# restart
+# run all
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mlp_testbench/uut/a1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+Stopped at time : 449545 ns : File "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/adder.vhd" Line 33

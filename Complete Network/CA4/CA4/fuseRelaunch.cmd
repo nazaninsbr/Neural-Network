@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/MLP_testbench_isim_beh.exe" -prj "C:/Users/Hossain/Documents/Nooshin/CA4/CA4/MLP_testbench_beh.prj" "work.MLP_testbench" 
